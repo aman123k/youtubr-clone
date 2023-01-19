@@ -30,7 +30,7 @@ function Header() {
         {/* header */}
         <section
           className=" flex w-[90%] justify-between
-         max-[500px]:w-full items-center 
+         max-[500px]:w-[93%] items-center 
         border-b "
         >
           {/* left container */}
@@ -59,7 +59,7 @@ function Header() {
             <div
               className=" w-[90%] border rounded-3xl 
             items-center flex h-[35px] pl-[20px] 
-            max-[800px]:w-[70%] max-[800px]:ml-2 overflow-hidden bg-white "
+             max-[800px]:ml-2 overflow-hidden bg-white "
             >
               <input
                 type="text"
@@ -68,14 +68,19 @@ function Header() {
                 value={value}
                 className=" flex-1  outline-0
                  text-[16px] h-[100%]
-               border-[#e5e5e5] border-r"
+               border-[#e5e5e5] border-r
+               max-[350px]:w-[80%]
+               "
               />
-              <IoIosSearch
+              <div
                 className=" cursor-pointer 
               w-[50px] h-[100%] text-[20px] 
-              px-[14px] bg-[#f9f9f9]
-              max-[500px]:w-[70px]"
-              />
+              px-[14px] py-1.5 bg-[#f9f9f9]
+              max-[360px]:px-2 max-[350px]:w-[20%]
+              "
+              >
+                <IoIosSearch />
+              </div>
             </div>
             <HiMicrophone
               className=" text-[25px] 
