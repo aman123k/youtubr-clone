@@ -13,7 +13,7 @@ function Library() {
           return (
             <div key={index} className="w-full cursor-pointer my-4">
               <img className="w-full" src={item.image} alt="" />
-              <div className=" w-full flex mt-3 items-center gap-3">
+              <div className=" w-full flex mt-3 items-start gap-3">
                 <img
                   className="w-10 rounded-full "
                   src={item.channelImage}
@@ -21,7 +21,7 @@ function Library() {
                 />
                 <div>
                   <h3 className=" font-semibold">{item.title}</h3>
-                  <p className="text-sm mt-3 text-[#6A6060]">{item.channel}</p>
+                  <p className="text-sm mt-2 text-[#6A6060]">{item.channel}</p>
                   <div className="text-sm text-[#6A6060]">
                     <span className="mr-3">{item.views}</span>
                     <span>{item.timestamp}</span>
@@ -35,7 +35,7 @@ function Library() {
           return (
             <div key={index} className="w-full cursor-pointer my-4">
               <img className="w-full" src={item.image} alt="" />
-              <div className=" w-full flex mt-3 items-center gap-3">
+              <div className=" w-full flex mt-3 items-start gap-3">
                 <img
                   className="w-10 rounded-full "
                   src={item.channelImage}
@@ -43,7 +43,7 @@ function Library() {
                 />
                 <div>
                   <h3 className=" font-semibold">{item.title}</h3>
-                  <p className="text-sm mt-3 text-[#6A6060]">{item.channel}</p>
+                  <p className="text-sm mt-2 text-[#6A6060]">{item.channel}</p>
                   <div className="text-sm text-[#6A6060]">
                     <span className="mr-3">{item.views}</span>
                     <span>{item.timestamp}</span>
