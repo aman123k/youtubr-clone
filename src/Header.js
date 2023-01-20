@@ -66,7 +66,7 @@ function Header() {
                 onChange={(e) => setValue(e.target.value)}
                 value={value}
                 className="flex-1 outline-0
-                 text-[16px] h-[100%] px-[15px] max-sm:pr-[16%]
+                 text-[16px] h-[100%] px-[15px]
                "
               />
               <div
@@ -74,7 +74,7 @@ function Header() {
                  h-[100%] text-[20px]
                 border-[#e5e5e5] border-l
                 px-[14px] py-1.5 bg-[#f9f9f9]
-                max-sm:absolute right-0
+               
                "
               >
                 <IoIosSearch />
