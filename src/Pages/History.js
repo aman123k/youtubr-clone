@@ -5,7 +5,8 @@ function History() {
     <>
       <section
         className="min-[500px]:grid
-        min-[500px]:grid-cols-2 min-[500px]:gap-x-3 min-[500px]:px-0 md:grid-cols-3 
+        min-[500px]:grid-cols-2 min-[500px]
+        :gap-x-3 min-[500px]:px-0 md:grid-cols-3 
         xl:grid-cols-4 2xl:grid-cols-5"
       >
         {HistoryVideo.map((item, index) => {

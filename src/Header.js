@@ -58,26 +58,24 @@ function Header() {
           >
             <div
               className=" w-[90%] border rounded-3xl 
-            items-center flex h-[35px] pl-[20px] 
-             max-[800px]:ml-2 overflow-hidden bg-white "
+            items-center flex h-[35px] relative overflow-hidden bg-white "
             >
               <input
                 type="text"
                 placeholder="Search"
                 onChange={(e) => setValue(e.target.value)}
                 value={value}
-                className=" flex-1  outline-0
-                 text-[16px] h-[100%]
-               border-[#e5e5e5] border-r
-               max-[350px]:w-[80%]
+                className="flex-1 outline-0
+                 text-[16px] h-[100%] px-[15px] max-sm:pr-[16%]
                "
               />
               <div
-                className=" cursor-pointer 
-              w-[50px] h-[100%] text-[20px] 
-              px-[14px] py-1.5 bg-[#f9f9f9]
-              max-[360px]:px-2 max-[350px]:w-[20%]
-              "
+                className=" cursor-pointer
+                 h-[100%] text-[20px]
+                border-[#e5e5e5] border-l
+                px-[14px] py-1.5 bg-[#f9f9f9]
+                max-sm:absolute right-0
+               "
               >
                 <IoIosSearch />
               </div>
